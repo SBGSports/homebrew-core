@@ -28,6 +28,7 @@ class MongoCDriver < Formula
       --enable-man-pages
       --with-libbson=bundled
       --enable-ssl=darwin
+      --enable-static
     ]
 
     system "./configure", *args
